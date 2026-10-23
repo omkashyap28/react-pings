@@ -59,6 +59,7 @@ export default function Customizer() {
             error: "Error in saving",
           }
         );
+        break;
       case "blank":
         ping("Blank Toast");
         break;
